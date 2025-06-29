@@ -1,0 +1,205 @@
+.case-study-para {
+    margin-top: 20px;
+    font-size: 22px !important;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.card-text {
+    font-size: 22px !important;
+    line-height: 29px !important;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.benefit-card-my {
+    border: 1px solid #ffffff1a;
+    border-radius: 10px;
+    width: 480px;
+    max-width: 480px;
+    padding: 1rem;
+    font-size: 16px;
+    align-items: center;
+}
+
+
+.card-icon-my img {
+    max-width: none;
+}
+
+.before-after-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.before-after-box .top h4 {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.font-31px {
+    font-size: 31px !important;
+}
+
+.before-after-box .middle img {
+    width: 454px;
+    height: 331px;
+    object-fit: cover;
+}
+
+.before-after-box .bottom h4 {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.before-after-last-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.ranking-image-main-box {
+    display: flex;
+    justify-content: center;
+}
+
+.ranking-image {
+    margin-top: 50px;
+    border-radius: 10px;
+    max-width: 785px;
+
+}
+
+.ranking-image img {
+    border-radius: 10px;
+}
+
+.review-main-box {
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    max-width: 785px;
+    align-items: center;
+}
+
+.review .left img {
+    width: 120px;
+    height: 100px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+
+.review .right {
+    background-color: white;
+    border-radius: 10px;
+    padding: 22px;
+    color: black;
+    width: 100%;
+    position: relative;
+}
+
+.review .right::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #ffffff;
+}
+
+.review .right .review-text-1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.review .right .review-text-2 {
+    text-align: end;
+    font-size: 17px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.review-last-button-main-box {
+    margin-top: 30px;
+}
+
+.review-last-button {
+    max-width: 785px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: end;
+}
+
+.footer-text-last {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    padding-top: 224px;
+}
+
+.footer-text-last a {
+    color: white;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .button-section {
+        flex-direction: column;
+    }
+
+    .before-after-box {
+        flex-direction: column;
+    }
+
+    .before-after-box .middle img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .review {
+        flex-direction: column;
+    }
+
+    .review .left img {
+        width: 100px;
+        height: 100px;
+        border-radius: 200px;
+    }
+
+    .review .right::before {
+        content: "";
+        position: absolute;
+        top: -14px;
+        left: 49%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        transform: rotate(90deg);
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid #ffffff;
+    }
+}

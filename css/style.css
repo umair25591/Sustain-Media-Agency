@@ -40,6 +40,7 @@
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
+    padding: 0px 103px;
 }
 
 .before-after-box .top h4 {
@@ -53,8 +54,8 @@
 }
 
 .before-after-box .middle img {
-    width: 454px;
-    height: 331px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -163,6 +164,16 @@
 .footer-text-last a {
     color: white;
 
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .before-after-box {
+        padding: 0px 0px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
